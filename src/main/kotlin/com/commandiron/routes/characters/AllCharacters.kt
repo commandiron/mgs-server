@@ -35,6 +35,5 @@ fun Route.getAllCharacters() {
                 status = HttpStatusCode.NotFound
             )
         }
-
     }
 }
