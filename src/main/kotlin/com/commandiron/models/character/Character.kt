@@ -11,7 +11,8 @@ data class Character(
     val age: String? = null,
     val info: String? = null,
     val imagePaths: List<String>,
-    val shortClipPath: String? = null
+    val shortClipPath: String? = null,
+    val shortClipCoverTimeStampMilli: Int? = null
 ) {
     companion object {
         val characters = listOf(
@@ -42,6 +43,7 @@ data class Character(
                     "/images/characters/big_boss/big_boss_mgs5.jpg",
                 ),
                 shortClipPath = "/clips/characters/big_boss/big_boss_mgsgz.mp4",
+                shortClipCoverTimeStampMilli = 3800
             ),
             Character(
                 id = 1,
