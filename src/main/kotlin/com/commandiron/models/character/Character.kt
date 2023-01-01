@@ -77,7 +77,8 @@ data class Character(
                 id = 3,
                 name = "Meryl Silverburgh",
                 imagePaths = listOf(
-                    "/images/characters/meryl_silverburgh.jpg"
+                    "/images/characters/meryl_silverburgh/meryl_silverburgh_mgs4.jpg",
+                    "/images/characters/meryl_silverburgh/meryl_silverburgh_mgs.jpg"
                 )
             ),
             Character(
@@ -85,7 +86,8 @@ data class Character(
                 name = "Naomi Hunter",
                 alsoKnownNames = listOf("Dr. Naomi"),
                 imagePaths = listOf(
-                    "/images/characters/naomi_hunter.jpg",
+                    "/images/characters/naomi_hunter/naomi_hunter_mgs4.jpg",
+                    "/images/characters/naomi_hunter/naomi_hunter_mgs.jpg",
                 )
             ),
             Character(
