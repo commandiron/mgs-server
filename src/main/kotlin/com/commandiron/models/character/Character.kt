@@ -124,7 +124,7 @@ data class Character(
                     "Deepthroat"
                 ),
                 imagePaths = listOf(
-                    "/images/gray_fox.jpg",
+                    "/images/characters/gray_fox.jpg",
                 )
             ),
             Character(
