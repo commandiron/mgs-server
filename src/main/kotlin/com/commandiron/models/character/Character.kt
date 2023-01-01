@@ -96,7 +96,7 @@ data class Character(
                 realName = "Hal Emmerich",
                 alsoKnownNames = listOf("Otacon"),
                 imagePaths = listOf(
-                    "/images/characters/hal_emmerich.jpg",
+                    "/images/characters/hal_emmerich/hal_emmerich_mgs.jpg",
                 )
             ),
             Character(
@@ -104,14 +104,14 @@ data class Character(
                 name = "Roy Campbell",
                 alsoKnownNames = listOf("Colonel"),
                 imagePaths = listOf(
-                    "/images/characters/roy_campbell.jpg",
+                    "/images/characters/roy_campbell/roy_campbell_mgs.jpg",
                 )
             ),
             Character(
                 id = 7,
                 name = "Mei Ling",
                 imagePaths = listOf(
-                    "/images/characters/mei_ling.jpg",
+                    "/images/characters/mei_ling/mei_ling_mgs.jpg",
                 )
             ),
             Character(
@@ -126,14 +126,14 @@ data class Character(
                     "Deepthroat"
                 ),
                 imagePaths = listOf(
-                    "/images/characters/gray_fox.jpg",
+                    "/images/characters/gray_fox/gray_fox_mgs.jpg",
                 )
             ),
             Character(
                 id = 9,
                 name = "Nastasha Romanenko",
                 imagePaths = listOf(
-                    "/images/characters/nastasha_romanenko.jpg",
+                    "/images/characters/nastasha_romanenko/nastasha_romanenko_mgs.jpg",
                 )
             ),
             Character(
@@ -146,14 +146,14 @@ data class Character(
                     "Liquid Ocelot"
                 ),
                 imagePaths = listOf(
-                    "/images/characters/revolver_ocelot.jpg",
+                    "/images/characters/revolver_ocelot/revolver_ocelot_mgs.jpg",
                 )
             ),
             Character(
                 id = 11,
                 name = "Vulcan Raven",
                 imagePaths = listOf(
-                    "/images/characters/vulcan_raven.jpg",
+                    "/images/characters/vulcan_raven/vulcan_raven_mgs.jpg",
                 )
             ),
             Character(
@@ -165,14 +165,14 @@ data class Character(
                     "The Floating Boy"
                 ),
                 imagePaths = listOf(
-                    "/images/characters/psycho_mantis.jpg",
+                    "/images/characters/psycho_mantis/psycho_mantis_mgs.jpg",
                 )
             ),
             Character(
                 id = 13,
                 name = "Sniper Wolf",
                 imagePaths = listOf(
-                    "/images/characters/sniper_wolf.jpg",
+                    "/images/characters/sniper_wolf/sniper_wolf_mgs.jpg",
                 )
             ),
             Character(
@@ -184,7 +184,7 @@ data class Character(
                     "The DARPA Chief"
                 ),
                 imagePaths = listOf(
-                    "/images/characters/donald_anderson.jpg",
+                    "/images/characters/donald_anderson/donald_anderson_mgs.jpg",
                 )
             ),
             Character(
@@ -194,21 +194,21 @@ data class Character(
                     "Donald Anderson"
                 ),
                 imagePaths = listOf(
-                    "/images/characters/decoy_octopus.jpg",
+                    "/images/characters/decoy_octopus/decoy_octopus_mgs.jpg",
                 )
             ),
             Character(
                 id = 16,
                 name = "Kenneth Baker",
                 imagePaths = listOf(
-                    "/images/characters/kenneth_baker.jpg",
+                    "/images/characters/kenneth_baker/kenneth_baker_mgs.jpg",
                 )
             ),
             Character(
                 id = 17,
                 name = "Jim Houseman",
                 imagePaths = listOf(
-                    "/images/characters/jim_houseman.jpg",
+                    "/images/characters/jim_houseman/jim_houseman_mgs.jpg",
                 )
             ),
             Character(
@@ -218,7 +218,7 @@ data class Character(
                     "Akiba (short for Akihabara)"
                 ),
                 imagePaths = listOf(
-                    "/images/characters/johnny_sasaki.jpg",
+                    "/images/characters/johnny_sasaki/johnny_sasaki_mgs.jpg",
                 )
             ),
         )
