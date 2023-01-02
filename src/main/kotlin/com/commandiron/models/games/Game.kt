@@ -6,7 +6,7 @@ data class Game(
     val name: String,
     val logoPath: String,
     val posterPath: String,
-    val platforms: List<String>? = null,
+    val platformNames: List<String>? = null,
     val releaseDate: String? = null,
     val summary: String? = null,
 ) {
@@ -17,7 +17,7 @@ data class Game(
                 name = "Metal Gear",
                 logoPath = "/images/games/mg/mg_logo.png",
                 posterPath = "/images/games/mg/mg_poster.jpg",
-                platforms = listOf(
+                platformNames = listOf(
                     "PlayStation",
                     "PlayStation 3",
                     "PlayStation Vita",
@@ -42,7 +42,7 @@ data class Game(
                 name = "Metal Gear 2 Solid Snake",
                 logoPath = "/images/games/mg2/mg2_logo.png",
                 posterPath = "/images/games/mg2/mg2_poster.jpg",
-                platforms = listOf(
+                platformNames = listOf(
                     "PlayStation",
                     "PlayStation 3",
                     "PlayStation Vita",
@@ -63,7 +63,7 @@ data class Game(
                 name = "Metal Gear Solid",
                 logoPath = "/images/games/mgs/mgs_logo.png",
                 posterPath = "/images/games/mgs/mgs_poster.jpg",
-                platforms = listOf(
+                platformNames = listOf(
                     "PlayStation",
                     "PlayStation Classic",
                     "PlayStation Portable",
@@ -81,7 +81,7 @@ data class Game(
                 name = "Metal Gear Solid II Sons of Liberty",
                 logoPath = "/images/games/mgs2/mgs2_logo.png",
                 posterPath = "/images/games/mgs2/mgs2_poster.jpg",
-                platforms = listOf(
+                platformNames = listOf(
                     "PlayStation 2"
                 ),
                 releaseDate = "2001",
@@ -96,7 +96,7 @@ data class Game(
                 name = "Metal Gear Solid III Snake Eater",
                 logoPath = "/images/games/mgs3/mgs3_logo.png",
                 posterPath = "/images/games/mgs3/mgs3_poster.jpg",
-                platforms = listOf(
+                platformNames = listOf(
                     "PlayStation 2"
                 ),
                 releaseDate = "2004",
@@ -113,7 +113,7 @@ data class Game(
                 name = "Metal Gear Solid IV Guns of the Patriots",
                 logoPath = "/images/games/mgs4/mgs4_logo.png",
                 posterPath = "/images/games/mgs4/mgs4_poster.jpg",
-                platforms = listOf(
+                platformNames = listOf(
                     "PlayStation 3"
                 ),
                 releaseDate = "2008",
@@ -128,7 +128,7 @@ data class Game(
                 name = "Metal Gear Solid Peace Walker",
                 logoPath = "/images/games/mgspw/mgspw_logo.png",
                 posterPath = "/images/games/mgspw/mgspw_poster.jpg",
-                platforms = listOf(
+                platformNames = listOf(
                     "PlayStation Portable",
                     "PlayStation 3",
                     "XBOX 360",
@@ -150,7 +150,7 @@ data class Game(
                 name = "Metal Gear Solid V Ground Zeroes",
                 logoPath = "/images/games/mgs5gz/mgs5gz_logo.png",
                 posterPath = "/images/games/mgs5gz/mgs5gz_poster.jpg",
-                platforms = listOf(
+                platformNames = listOf(
                     "PlayStation 3",
                     "PlayStation 4",
                     "XBOX 360",
@@ -169,7 +169,7 @@ data class Game(
                 name = "Metal Gear Solid V Phantom Pain",
                 logoPath = "/images/games/mgs5pp/mgs5pp_logo.png",
                 posterPath = "/images/games/mgs5pp/mgs5pp_poster.jpg",
-                platforms = listOf(
+                platformNames = listOf(
                     "PlayStation 3",
                     "PlayStation 4",
                     "XBOX 360",
