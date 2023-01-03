@@ -92,22 +92,26 @@ class CharactersRepositoryImpl: CharactersRepository {
     private fun findCharacters(query: String?): List<Character> {
         val founded = mutableListOf<Character>()
         return if(!query.isNullOrEmpty()) {
-            characters.forEach { hero ->
-                if(hero.name.lowercase().contains(query.lowercase())) {
-                    founded.add(hero)
+            characters.forEach { character ->
+                if(character.name.lowercase().contains(query.lowercase())) {
+                    founded.add(character)
                     return@forEach
                 }
-                hero.realName?.let { realName ->
+                character.realName?.let { realName ->
                     if(realName.lowercase().contains(query.lowercase())){
-                        founded.add(hero)
+                        founded.add(character)
                         return@forEach
                     }
                 }
-                hero.alsoKnownNames?.let { alsoKnownNames ->
+                character.alsoKnownNames?.let { alsoKnownNames ->
                     if(alsoKnownNames.any { it.lowercase().contains(query.lowercase()) }) {
-                        founded.add(hero)
+                        founded.add(character)
                         return@forEach
                     }
+                }
+                if(character.gameTags.any { it.lowercase().contains(query.lowercase()) }) {
+                    founded.add(character)
+                    return@forEach
                 }
             }
             founded

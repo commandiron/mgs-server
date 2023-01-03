@@ -114,27 +114,29 @@ data class Character(
                 )
             ),
             Character(
-                name = "Liquid Snake",
-                realName = "Eli",
+                name = "Kazuhira Miller",
                 alsoKnownNames = listOf(
-                    "White Mamba",
-                    "McDonell Miller"
+                    "Kaz",
+                    "McDonell Benedict Miller",
+                    "Hell Master",
+                    "Master Miller"
                 ),
-                nationality = "British, American",
-                born = "1972, United States",
-                age = "33 at death",
+                nationality = "American, Japanese",
+                born = "1946, Yokosuka, Japan",
+                age = "Late 50s at death",
                 info = """
-                    Liquid Snake, real name Eli, also known as White Mamba (Kikongo: "Nyoka ya Mpembe"), McDonell/Master Miller, or simply Liquid, was the leader of FOXHOUND during the Shadow Moses Incident. He was cloned from Big Boss's DNA as part of the Les Enfants Terribles project, along with his brothers Solid Snake and Solidus Snake. Liquid was led to believe that he had been created in order to express Big Boss's recessive genetic traits, and as such, was "inferior" to Solid Snake who supposedly had received Big Boss's dominant genes. Liquid therefore held a strong resentment towards Solid and wished to defeat him in combat, reclaiming what he felt was his birthright, and thus proving his superiority.
-
-                    Possessing an IQ of 180, Liquid spoke seven languages fluently, including English, Spanish, French, Malay, Arabic and Kikongo.[3][8] His main language, English, was also spoken with an English accent of the Received Pronunciation dialect during adulthood, and a Central London dialect during his childhood. He was almost an exact double of Solid Snake in terms of appearance, with the only distinguishable feature being his darker skin tone and fair hair color. He also had a tattoo on his left arm, which resembled the Rod of Asclepius, but with a sword in its place and with the words "Temptation Revelation".
+                    Kazuhira Miller (カズヒラ・ミラー Kazuhira Mirā?), also known as Kaz, McDonell Benedict Miller and Master Miller, was the subcommander of both the Militaires Sans Frontières and Diamond Dogs, and the survival trainer of FOXHOUND. He was well-read and possessed a vast array of scientific knowledge.
                 """.trimIndent(),
                 imagePaths = listOf(
-                    "/images/characters/liquid_snake/liquid_snake_mgs5.jpg",
-                    "/images/characters/liquid_snake/liquid_snake_mgs.jpg",
+                    "/images/characters/kazuhira_miller/kazuhira_miller_mgs5.jpg",
+                    "/images/characters/kazuhira_miller/kazuhira_miller_mgs.jpg"
                 ),
                 gameTags = listOf(
                     "MGS 5 TPP",
-                    "MGS"
+                    "MGS 5 GZ",
+                    "MGS PW",
+                    "MGS",
+                    "MG 2",
                 )
             ),
             Character(
@@ -168,6 +170,195 @@ data class Character(
                 )
             ),
             Character(
+                name = "Huey Emmerich",
+                nationality = "American",
+                born = "August 6, 1945",
+                age = "c. 52 (at death)",
+                info = """
+                    Dr. "Huey" Emmerich was a mechanical engineer responsible for developing bipedal locomotion technology for the Peace Walker Project in 1974 and later served as the chief engineer of Metal Gear Sahelanthropus in 1984. He was the biological father of Hal "Otacon" Emmerich and the stepfather of Emma "E.E." Emmerich.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/huey_emmerich/huey_emmerich_mgs5.jpg",
+                    "/images/characters/huey_emmerich/huey_emmerich_mgspw.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 5 TPP",
+                    "MGS PW",
+                )
+            ),
+            Character(
+                name = "Liquid Snake",
+                realName = "Eli",
+                alsoKnownNames = listOf(
+                    "White Mamba",
+                    "McDonell Miller"
+                ),
+                nationality = "British, American",
+                born = "1972, United States",
+                age = "33 at death",
+                info = """
+                    Liquid Snake, real name Eli, also known as White Mamba (Kikongo: "Nyoka ya Mpembe"), McDonell/Master Miller, or simply Liquid, was the leader of FOXHOUND during the Shadow Moses Incident. He was cloned from Big Boss's DNA as part of the Les Enfants Terribles project, along with his brothers Solid Snake and Solidus Snake. Liquid was led to believe that he had been created in order to express Big Boss's recessive genetic traits, and as such, was "inferior" to Solid Snake who supposedly had received Big Boss's dominant genes. Liquid therefore held a strong resentment towards Solid and wished to defeat him in combat, reclaiming what he felt was his birthright, and thus proving his superiority.
+
+                    Possessing an IQ of 180, Liquid spoke seven languages fluently, including English, Spanish, French, Malay, Arabic and Kikongo.[3][8] His main language, English, was also spoken with an English accent of the Received Pronunciation dialect during adulthood, and a Central London dialect during his childhood. He was almost an exact double of Solid Snake in terms of appearance, with the only distinguishable feature being his darker skin tone and fair hair color. He also had a tattoo on his left arm, which resembled the Rod of Asclepius, but with a sword in its place and with the words "Temptation Revelation".
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/liquid_snake/liquid_snake_mgs5.jpg",
+                    "/images/characters/liquid_snake/liquid_snake_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 5 TPP",
+                    "MGS"
+                )
+            ),
+
+            Character(
+                name = "Yevgeny Borisovitch Volgin",
+                alsoKnownNames = listOf(
+                    "Thunderbolt",
+                    "Man on Fire"
+                ),
+                nationality = "Soviet Russian",
+                born = "1905 – c. 1914",
+                age = "70s",
+                info = """
+                    Yevgeny Borisovitch Volgin (Russian: Евгений Борисович Волгин), also known as Thunderbolt, was a Soviet GRU colonel, who conspired with the Brezhnev faction and the military in the 1960s to overthrow Nikita Khrushchev and seize power.
+
+                    With funding from the Philosophers' Legacy, Volgin established the huge fortress of Groznyj Grad, where he had the nuclear-armed Shagohod developed. A physically imposing figure, his body also carried a permanent electric charge, and he specialized in electric shock attacks.
+
+                    After being burned alive during Operation Snake Eater, Volgin's comatose body was retrieved and experimented on by Soviet scientists. His desire for vengeance kept him alive for many years, and through the psychic influence of Tretij Rebenok, he awakened as the Man on Fire and set out to enact his revenge.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/yevgeny_borisovitch_volgin/yevgeny_borisovitch_volgin_mgs5.jpg",
+                    "/images/characters/yevgeny_borisovitch_volgin/yevgeny_borisovitch_volgin_mgs5_2.jpg",
+                    "/images/characters/yevgeny_borisovitch_volgin/yevgeny_borisovitch_volgin_mgs3.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 5 TPP",
+                    "MGS 3"
+                )
+            ),
+            Character(
+                name = "Psycho Mantis",
+                alsoKnownNames = listOf(
+                    "Tretij Rebenok (Third Child)",
+                    "Third Boy",
+                    "The Floating Boy"
+                ),
+                nationality = "American, Inuit",
+                born = "c. 1966 - c. 1975",
+                age = "30s at death",
+                info = """
+                    Vulcan Raven was a member of FOXHOUND who participated in the unit's revolt on Shadow Moses Island in 2005. He was a shaman and was raised in the cold state of Alaska.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/psycho_mantis/psycho_mantis_mgs5.jpg",
+                    "/images/characters/psycho_mantis/psycho_mantis_mgs4.jpg",
+                    "/images/characters/psycho_mantis/psycho_mantis_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS",
+                    "MGS 4",
+                    "MGS 5 TPP"
+                )
+            ),
+            Character(
+                name = "Quiet",
+                alsoKnownNames = listOf(
+                    "Tixij"
+                ),
+                info = """
+                    Quiet, known to the Soviet forces as Tixij (Russian: Тихий, "Quiet"),[Note][1] was a female assassin during the 1980s. Originally an assassin for XOF, Quiet later defected to Diamond Dogs after being defeated by Venom Snake. Quiet wore a minimal amount of clothing at all times because she could only drink or breathe through her skin following parasite-treatment due to the serious injuries she had sustained while trying to kill Big Boss during the hospital raid; wearing too much clothing would lead to suffocation.
+
+                    After being defeated by Venom Snake in Afghanistan following a tense sniper duel, Quiet became a prisoner at Mother Base until she was allowed to accompany Venom Snake on missions as a buddy. Her weapons included two lethal sniper rifles nicknamed Wicked Butterfly and Sinful Butterfly as well as the non-lethal Guilty Butterfly.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/quiet/quiet_mgs5.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 5 TPP"
+                )
+            ),
+            Character(
+                name = "Code Talker",
+                alsoKnownNames = listOf(
+                    "George"
+                ),
+                nationality = "American/Navajo",
+                age = "104-105 (1984)",
+                info = """
+                    Code Talker was an elderly Diné (Navajo) biologist who specialized in parasitology that Venom Snake encountered during the 1980s. He was contracted by Skull Face to modify the vocal cord parasite to be used as biological weapons by targeting the languages spoken by ethnic groups. Skull Face then intended to use the parasites to kill Cipher and transform the world in his image by completely eliminating the English language.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/code_talker/code_talker_mgs5.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 5 TPP"
+                )
+            ),
+            Character(
+                name = "Skull Face",
+                alsoKnownNames = listOf(
+                    "Bilagáana"
+                ),
+                nationality = "Hungarian",
+                age = "id to late 40s",
+                info = """
+                    Skull Face was the heavily scarred commander of the paramilitary unit XOF. He secretly commanded XOF from the 1960s up until his death in 1984, at first acting as a covert ally of Naked Snake during the Virtuous Mission and Operation Snake Eater, and later as Cipher's elite strike force until he finally took control of the organization away from Zero. Skull Face also created the Parasite Unit, a group of parasite-enhanced super soldiers that would act as his chief enforcers and high-level operatives for XOF during the 1980s. He suffered extensive injuries in his youth which caused his characteristic facial scars, burns, and discolorations (most notably a Glasgow smile).
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "images/characters/skull_face/skull_face_mgs5tpp.jpg",
+                    "images/characters/skull_face/skull_face_mgs5gz.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 5 TPP",
+                    "MGS 5 GZ"
+                )
+            ),
+            Character(
+                name = "Paz Ortega Andrade",
+                realName = "Pacifica Ocean",
+                nationality = "American",
+                age = "Mid 20s at death",
+                info = """
+                    Paz Ortega Andrade, real name Pacifica Ocean, was a Cipher agent who infiltrated the Militaires Sans Frontières during the Peace Walker Incident in 1974.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "images/characters/paz_ortega_andrade/paz_ortega_andrade_mgs5tpp.jpg",
+                    "images/characters/paz_ortega_andrade/paz_ortega_andrade_mgs5gz.jpg",
+                    "images/characters/paz_ortega_andrade/paz_ortega_andrade_mgspw.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 5 TPP",
+                    "MGS 5 GZ",
+                    "MGS PW"
+                )
+            ),
+            Character(
+                name = "Zero",
+                realName = "David Oh",
+                alsoKnownNames = listOf(
+                    "O",
+                    "Major Tom",
+                    "Major Zero",
+                    "Cipher"
+                ),
+                nationality = "British",
+                age = "105 at death",
+                info = """
+                    Zero (real name David Oh, and formerly known as O, Major Tom, Major Zero and Cipher) was the original commander of CIA Special Forces Unit FOX (Force Operation X) as well as Cipher. His relationship with Big Boss started as a friendship, but later developed into a bitter enmity.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "images/characters/zero/zero_mgs4.jpg",
+                    "images/characters/zero/zero_mgs3.jpg",
+                    "images/characters/zero/zero_mpo.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 4",
+                    "MGS 3",
+                    "MGO"
+                )
+            ),
+            Character(
                 name = "Solidus Snake",
                 realName = "George Sears",
                 alsoKnownNames = listOf(
@@ -185,32 +376,6 @@ data class Character(
                 ),
                 gameTags = listOf(
                     "MGS 2"
-                )
-            ),
-            Character(
-                name = "Kazuhira Miller",
-                alsoKnownNames = listOf(
-                    "Kaz",
-                    "McDonell Benedict Miller",
-                    "Hell Master",
-                    "Master Miller"
-                ),
-                nationality = "American, Japanese",
-                born = "1946, Yokosuka, Japan",
-                age = "Late 50s at death",
-                info = """
-                    Kazuhira Miller (カズヒラ・ミラー Kazuhira Mirā?), also known as Kaz, McDonell Benedict Miller and Master Miller, was the subcommander of both the Militaires Sans Frontières and Diamond Dogs, and the survival trainer of FOXHOUND. He was well-read and possessed a vast array of scientific knowledge.
-                """.trimIndent(),
-                imagePaths = listOf(
-                    "/images/characters/kazuhira_miller/kazuhira_miller_mgs5.jpg",
-                    "/images/characters/kazuhira_miller/kazuhira_miller_mgs.jpg"
-                ),
-                gameTags = listOf(
-                    "MGS 5 TPP",
-                    "MGS 5 GZ",
-                    "MGS PW",
-                    "MGS",
-                    "MG 2",
                 )
             ),
             Character(
@@ -350,30 +515,6 @@ data class Character(
                 ),
                 gameTags = listOf(
                     "MGS"
-                )
-            ),
-            Character(
-                name = "Psycho Mantis",
-                alsoKnownNames = listOf(
-                    "Tretij Rebenok (Third Child)",
-                    "Third Boy",
-                    "The Floating Boy"
-                ),
-                nationality = "American, Inuit",
-                born = "c. 1966 - c. 1975",
-                age = "30s at death",
-                info = """
-                    Vulcan Raven was a member of FOXHOUND who participated in the unit's revolt on Shadow Moses Island in 2005. He was a shaman and was raised in the cold state of Alaska.
-                """.trimIndent(),
-                imagePaths = listOf(
-                    "/images/characters/psycho_mantis/psycho_mantis_mgs5.jpg",
-                    "/images/characters/psycho_mantis/psycho_mantis_mgs4.jpg",
-                    "/images/characters/psycho_mantis/psycho_mantis_mgs.jpg",
-                ),
-                gameTags = listOf(
-                    "MGS",
-                    "MGS 4",
-                    "MGS 5 TPP"
                 )
             ),
             Character(
