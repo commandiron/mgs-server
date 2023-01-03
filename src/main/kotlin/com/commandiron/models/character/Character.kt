@@ -11,6 +11,7 @@ data class Character(
     val info: String? = null,
     val imagePaths: List<String>,
     val shortClipPath: String? = null,
+    val gameTags: List<String>? = null
 ) {
     companion object {
         val characters = listOf(
@@ -43,6 +44,14 @@ data class Character(
                     "/images/characters/solid_snake/solid_snake_mgs2.jpg",
                     "/images/characters/solid_snake/solid_snake_mgs.jpg",
                 ),
+                gameTags = listOf(
+                    "MGS 4",
+                    "MGS 2",
+                    "MGS TTS",
+                    "MGS",
+                    "MG 2",
+                    "MG"
+                )
             ),
             Character(
                 name = "Big Boss",
@@ -70,6 +79,16 @@ data class Character(
                     "/images/characters/big_boss/big_boss_mgs5.jpg",
                 ),
                 shortClipPath = "/clips/characters/big_boss/big_boss_mgsgz.mp4",
+                gameTags = listOf(
+                    "MGS 5 TPP",
+                    "MGS 5 GZ",
+                    "MGS PW",
+                    "MGS 4",
+                    "MG0",
+                    "MGS 3",
+                    "MG 2",
+                    "MG"
+                )
             ),
             Character(
                 name = "Venom Snake",
@@ -89,6 +108,10 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/venom_snake/venom_snake_mgs5.jpg",
                 ),
+                gameTags = listOf(
+                    "MGS 5 TPP",
+                    "MG",
+                )
             ),
             Character(
                 name = "Liquid Snake",
@@ -108,6 +131,10 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/liquid_snake/liquid_snake_mgs5.jpg",
                     "/images/characters/liquid_snake/liquid_snake_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 5 TPP",
+                    "MGS"
                 )
             ),
             Character(
@@ -130,6 +157,14 @@ data class Character(
                     "/images/characters/revolver_ocelot/revolver_ocelot_mgs5.jpg",
                     "/images/characters/revolver_ocelot/revolver_ocelot_mgs4.jpg",
                     "/images/characters/revolver_ocelot/revolver_ocelot_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 5 TPP",
+                    "MGS 4",
+                    "MG0",
+                    "MGS 3",
+                    "MGS 2",
+                    "MGS",
                 )
             ),
             Character(

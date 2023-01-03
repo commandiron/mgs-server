@@ -169,8 +169,8 @@ data class Game(
             Game(
                 id = 8,
                 name = "Metal Gear Solid V Phantom Pain",
-                logoPath = "/images/games/mgs5pp/mgs5pp_logo.png",
-                posterPath = "/images/games/mgs5pp/mgs5pp_poster.jpg",
+                logoPath = "/images/games/mgs5tpp/mgs5tpp_logo.png",
+                posterPath = "/images/games/mgs5tpp/mgs5tpp_poster.jpg",
                 platformNames = listOf(
                     "PlayStation 3",
                     "PlayStation 4",
