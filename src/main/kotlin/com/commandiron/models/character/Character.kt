@@ -11,7 +11,7 @@ data class Character(
     val info: String? = null,
     val imagePaths: List<String>,
     val shortClipPath: String? = null,
-    val gameTags: List<String>? = null
+    val gameTags: List<String>
 ) {
     companion object {
         val characters = listOf(
@@ -182,6 +182,9 @@ data class Character(
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/solidus_snake/solidus_snake_mgs2.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 2"
                 )
             ),
             Character(
@@ -201,6 +204,13 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/kazuhira_miller/kazuhira_miller_mgs5.jpg",
                     "/images/characters/kazuhira_miller/kazuhira_miller_mgs.jpg"
+                ),
+                gameTags = listOf(
+                    "MGS 5 TPP",
+                    "MGS 5 GZ",
+                    "MGS PW",
+                    "MGS",
+                    "MG 2",
                 )
             ),
             Character(
@@ -214,6 +224,10 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/meryl_silverburgh/meryl_silverburgh_mgs4.jpg",
                     "/images/characters/meryl_silverburgh/meryl_silverburgh_mgs.jpg"
+                ),
+                gameTags = listOf(
+                    "MGS 4",
+                    "MGS",
                 )
             ),
             Character(
@@ -228,6 +242,10 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/naomi_hunter/naomi_hunter_mgs4.jpg",
                     "/images/characters/naomi_hunter/naomi_hunter_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 4",
+                    "MGS",
                 )
             ),
             Character(
@@ -242,6 +260,11 @@ data class Character(
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/hal_emmerich/hal_emmerich_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 4",
+                    "MGS 2",
+                    "MGS",
                 )
             ),
             Character(
@@ -254,6 +277,12 @@ data class Character(
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/roy_campbell/roy_campbell_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 4",
+                    "MPO",
+                    "MGS",
+                    "MG 2"
                 )
             ),
             Character(
@@ -265,6 +294,10 @@ data class Character(
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/mei_ling/mei_ling_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 4",
+                    "MGS",
                 )
             ),
             Character(
@@ -287,6 +320,12 @@ data class Character(
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/gray_fox/gray_fox_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS",
+                    "MG 2",
+                    "MG",
+                    "MPO",
                 )
             ),
             Character(
@@ -299,12 +338,18 @@ data class Character(
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/nastasha_romanenko/nastasha_romanenko_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS"
                 )
             ),
             Character(
                 name = "Vulcan Raven",
                 imagePaths = listOf(
                     "/images/characters/vulcan_raven/vulcan_raven_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS"
                 )
             ),
             Character(
@@ -321,7 +366,14 @@ data class Character(
                     Vulcan Raven was a member of FOXHOUND who participated in the unit's revolt on Shadow Moses Island in 2005. He was a shaman and was raised in the cold state of Alaska.
                 """.trimIndent(),
                 imagePaths = listOf(
+                    "/images/characters/psycho_mantis/psycho_mantis_mgs5.jpg",
+                    "/images/characters/psycho_mantis/psycho_mantis_mgs4.jpg",
                     "/images/characters/psycho_mantis/psycho_mantis_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS",
+                    "MGS 4",
+                    "MGS 5 TPP"
                 )
             ),
             Character(
@@ -334,6 +386,9 @@ data class Character(
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/sniper_wolf/sniper_wolf_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS",
                 )
             ),
             Character(
@@ -354,6 +409,11 @@ data class Character(
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/donald_anderson/donald_anderson_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 3",
+                    "MGO",
+                    "MGS",
                 )
             ),
             Character(
@@ -367,6 +427,9 @@ data class Character(
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/decoy_octopus/decoy_octopus_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS",
                 )
             ),
             Character(
@@ -379,6 +442,9 @@ data class Character(
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/kenneth_baker/kenneth_baker_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS",
                 )
             ),
             Character(
@@ -390,6 +456,9 @@ data class Character(
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/jim_houseman/jim_houseman_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS",
                 )
             ),
             Character(
@@ -406,6 +475,10 @@ data class Character(
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/johnny_sasaki/johnny_sasaki_mgs.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 4",
+                    "MGS",
                 )
             ),
         )
