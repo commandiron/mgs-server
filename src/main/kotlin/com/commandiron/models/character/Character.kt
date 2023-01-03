@@ -218,10 +218,10 @@ data class Character(
                     "Man on Fire"
                 ),
                 nationality = "Soviet Russian",
-                born = "1905 – c. 1914",
+                born = "1905 - c. 1914",
                 age = "70s",
                 info = """
-                    Yevgeny Borisovitch Volgin (Russian: Евгений Борисович Волгин), also known as Thunderbolt, was a Soviet GRU colonel, who conspired with the Brezhnev faction and the military in the 1960s to overthrow Nikita Khrushchev and seize power.
+                    Yevgeny Borisovitch Volgin also known as Thunderbolt, was a Soviet GRU colonel, who conspired with the Brezhnev faction and the military in the 1960s to overthrow Nikita Khrushchev and seize power.
 
                     With funding from the Philosophers' Legacy, Volgin established the huge fortress of Groznyj Grad, where he had the nuclear-armed Shagohod developed. A physically imposing figure, his body also carried a permanent electric charge, and he specialized in electric shock attacks.
 
@@ -267,7 +267,7 @@ data class Character(
                     "Tixij"
                 ),
                 info = """
-                    Quiet, known to the Soviet forces as Tixij (Russian: Тихий, "Quiet"),[Note][1] was a female assassin during the 1980s. Originally an assassin for XOF, Quiet later defected to Diamond Dogs after being defeated by Venom Snake. Quiet wore a minimal amount of clothing at all times because she could only drink or breathe through her skin following parasite-treatment due to the serious injuries she had sustained while trying to kill Big Boss during the hospital raid; wearing too much clothing would lead to suffocation.
+                    Quiet, known to the Soviet forces as Tixij was a female assassin during the 1980s. Originally an assassin for XOF, Quiet later defected to Diamond Dogs after being defeated by Venom Snake. Quiet wore a minimal amount of clothing at all times because she could only drink or breathe through her skin following parasite-treatment due to the serious injuries she had sustained while trying to kill Big Boss during the hospital raid; wearing too much clothing would lead to suffocation.
 
                     After being defeated by Venom Snake in Afghanistan following a tense sniper duel, Quiet became a prisoner at Mother Base until she was allowed to accompany Venom Snake on missions as a buddy. Her weapons included two lethal sniper rifles nicknamed Wicked Butterfly and Sinful Butterfly as well as the non-lethal Guilty Butterfly.
                 """.trimIndent(),
@@ -284,7 +284,7 @@ data class Character(
                     "George"
                 ),
                 nationality = "American/Navajo",
-                age = "104-105 (1984)",
+                age = "104 - 105 (1984)",
                 info = """
                     Code Talker was an elderly Diné (Navajo) biologist who specialized in parasitology that Venom Snake encountered during the 1980s. He was contracted by Skull Face to modify the vocal cord parasite to be used as biological weapons by targeting the languages spoken by ethnic groups. Skull Face then intended to use the parasites to kill Cipher and transform the world in his image by completely eliminating the English language.
                 """.trimIndent(),
@@ -455,7 +455,7 @@ data class Character(
                 nationality = "American, Chinese (Guangdong)",
                 born = "Late 1980s United States",
                 info = """
-                    Mei Ling (美玲, Pinyin: Měi Líng) was a Chinese-American data analyst who served on Solid Snake's radio support team during the Shadow Moses Incident. Afterwards, she joined Philanthropy, an anti-Metal Gear organization, and assisted Snake in secret by providing stolen military equipment. Years later, Mei Ling became Captain of the museum-turned-training vessel USS Missouri, commanding it in battle at the time of the Guns of the Patriots Incident.
+                    Mei Ling was a Chinese-American data analyst who served on Solid Snake's radio support team during the Shadow Moses Incident. Afterwards, she joined Philanthropy, an anti-Metal Gear organization, and assisted Snake in secret by providing stolen military equipment. Years later, Mei Ling became Captain of the museum-turned-training vessel USS Missouri, commanding it in battle at the time of the Guns of the Patriots Incident.
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/mei_ling/mei_ling_mgs.jpg",
@@ -499,7 +499,7 @@ data class Character(
                 born = "1975, Prypiat, Ukraine",
                 age = "39 (2014)",
                 info = """
-                    Nastasha Romanenko (Russian: Ната́ша Романенко) was a Ukrainian-Russian[1][2] weapons analyst. As a member of the Nuclear Emergency Search Team, she assisted Solid Snake via Codec during the Shadow Moses Incident, providing him with information on firearms and nuclear weapons.[2]
+                    Nastasha Romanenko was a Ukrainian-Russian[1][2] weapons analyst. As a member of the Nuclear Emergency Search Team, she assisted Solid Snake via Codec during the Shadow Moses Incident, providing him with information on firearms and nuclear weapons.[2]
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/nastasha_romanenko/nastasha_romanenko_mgs.jpg",
