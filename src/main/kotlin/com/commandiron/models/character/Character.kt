@@ -306,8 +306,8 @@ data class Character(
                     Skull Face was the heavily scarred commander of the paramilitary unit XOF. He secretly commanded XOF from the 1960s up until his death in 1984, at first acting as a covert ally of Naked Snake during the Virtuous Mission and Operation Snake Eater, and later as Cipher's elite strike force until he finally took control of the organization away from Zero. Skull Face also created the Parasite Unit, a group of parasite-enhanced super soldiers that would act as his chief enforcers and high-level operatives for XOF during the 1980s. He suffered extensive injuries in his youth which caused his characteristic facial scars, burns, and discolorations (most notably a Glasgow smile).
                 """.trimIndent(),
                 imagePaths = listOf(
-                    "images/characters/skull_face/skull_face_mgs5tpp.jpg",
-                    "images/characters/skull_face/skull_face_mgs5gz.jpg",
+                    "/images/characters/skull_face/skull_face_mgs5tpp.jpg",
+                    "/images/characters/skull_face/skull_face_mgs5gz.jpg",
                 ),
                 gameTags = listOf(
                     "MGS 5 TPP",
@@ -323,9 +323,9 @@ data class Character(
                     Paz Ortega Andrade, real name Pacifica Ocean, was a Cipher agent who infiltrated the Militaires Sans Frontières during the Peace Walker Incident in 1974.
                 """.trimIndent(),
                 imagePaths = listOf(
-                    "images/characters/paz_ortega_andrade/paz_ortega_andrade_mgs5tpp.jpg",
-                    "images/characters/paz_ortega_andrade/paz_ortega_andrade_mgs5gz.jpg",
-                    "images/characters/paz_ortega_andrade/paz_ortega_andrade_mgspw.jpg",
+                    "/images/characters/paz_ortega_andrade/paz_ortega_andrade_mgs5tpp.jpg",
+                    "/images/characters/paz_ortega_andrade/paz_ortega_andrade_mgs5gz.jpg",
+                    "/images/characters/paz_ortega_andrade/paz_ortega_andrade_mgspw.jpg",
                 ),
                 gameTags = listOf(
                     "MGS 5 TPP",
@@ -348,9 +348,9 @@ data class Character(
                     Zero (real name David Oh, and formerly known as O, Major Tom, Major Zero and Cipher) was the original commander of CIA Special Forces Unit FOX (Force Operation X) as well as Cipher. His relationship with Big Boss started as a friendship, but later developed into a bitter enmity.
                 """.trimIndent(),
                 imagePaths = listOf(
-                    "images/characters/zero/zero_mgs4.jpg",
-                    "images/characters/zero/zero_mgs3.jpg",
-                    "images/characters/zero/zero_mpo.jpg",
+                    "/images/characters/zero/zero_mgs4.jpg",
+                    "/images/characters/zero/zero_mgs3.jpg",
+                    "/images/characters/zero/zero_mpo.jpg",
                 ),
                 gameTags = listOf(
                     "MGS 4",
