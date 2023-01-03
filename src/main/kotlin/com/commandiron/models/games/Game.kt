@@ -6,9 +6,9 @@ data class Game(
     val name: String,
     val logoPath: String,
     val posterPath: String,
-    val platformNames: List<String>? = null,
-    val releaseDate: String? = null,
-    val summary: String? = null,
+    val platformNames: List<String>,
+    val releaseDate: String,
+    val summary: String,
 ) {
     companion object {
         val games = listOf(
