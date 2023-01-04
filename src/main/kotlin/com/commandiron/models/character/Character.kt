@@ -125,7 +125,7 @@ data class Character(
                 born = "1946, Yokosuka, Japan",
                 age = "Late 50s at death",
                 info = """
-                    Kazuhira Miller (カズヒラ・ミラー Kazuhira Mirā?), also known as Kaz, McDonell Benedict Miller and Master Miller, was the subcommander of both the Militaires Sans Frontières and Diamond Dogs, and the survival trainer of FOXHOUND. He was well-read and possessed a vast array of scientific knowledge.
+                    Kazuhira Miller also known as Kaz, McDonell Benedict Miller and Master Miller, was the subcommander of both the Militaires Sans Frontières and Diamond Dogs, and the survival trainer of FOXHOUND. He was well-read and possessed a vast array of scientific knowledge.
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/kazuhira_miller/kazuhira_miller_mgs5.jpg",
