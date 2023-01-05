@@ -106,7 +106,8 @@ data class Character(
                     Punished "Venom" Snake, also known as Big Boss, Ahab, V, or Big Boss' phantom, was a combat medic for Militaires Sans Frontières (MSF), who would later become the mercenary commander of Diamond Dogs and Outer Heaven as one of Big Boss' most trusted lieutenants.
                 """.trimIndent(),
                 imagePaths = listOf(
-                    "/images/characters/venom_snake/venom_snake_mgs5.jpg",
+                    "/images/characters/venom_snake/venom_snake.mgs5tpp.jpg",
+                    "/images/characters/venom_snake/venom_snake.mgs5tpp2.jpg",
                 ),
                 gameTags = listOf(
                     "MGS 5 TPP",
