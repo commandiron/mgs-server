@@ -13,12 +13,12 @@ fun Route.searchCharacters() {
 
     get("/mgs/characters/search") {
         try {
-            val name = call.request.queryParameters["name"]
+            val query = call.request.queryParameters["query"]
 
             val page = call.request.queryParameters["page"]?.toInt() ?: 1
             val limit = call.request.queryParameters["limit"]?.toInt() ?: 5
 
-            val apiResponse = charactersRepository.searchCharacters(name, page, limit)
+            val apiResponse = charactersRepository.searchCharacters(query, page, limit)
 
             call.respond(
                 message = apiResponse,
