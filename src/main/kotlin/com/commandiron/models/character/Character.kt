@@ -141,6 +141,34 @@ data class Character(
                 )
             ),
             Character(
+                name = "Raiden",
+                realName = "Jack",
+                alsoKnownNames = listOf(
+                    "Jack the Ripper",
+                    "White Devil",
+                    "Snake",
+                    " Mr. Lightning Bolt"
+                ),
+                nationality = "American, Liberian",
+                born = "c. 1983",
+                age = "30s (2018)",
+                info = """
+                    Raiden, real name Jack, also known as Jack the Ripper, White Devil, and Snake, was a Liberian-American mercenary and former special forces soldier. Previously a child soldier under Solidus Snake, Raiden was later selected by the Patriots to test the S3 Plan at the Big Shell, as a new recruit to the reformed FOXHOUND unit. He later worked alongside the Paradise Lost Army in their anti-Patriot activities, but was captured and forced to undergo heavy cybernetic experimentation. After successfully escaping, Raiden went on to assist Solid Snake during the Guns of the Patriots Incident.
+
+                    In 2018, Raiden became a member of Maverick Security Consulting, Inc., doing multiple tasks while raising money for his family. However, during an escort mission in Africa they were attacked by Desperado Enforcement LLC., who killed Raiden's protectee, N'mani, and left Raiden for dead. Fortunately he was saved by the scientist Wilhelm Voigt and worked with Maverick to fight Desperado. Raiden's vengeful obsession with Desperado became personal when he discovered during a mission in Mexico that Desperado and World Marshal Inc. had kidnapped several children, surgically removed their brains to place into cybernetic bodies, and were planning to subject them to VR training modeled after his own. Raiden then resigned from Maverick to pursue and retrieve the children's brain cases from World Marshal in Colorado.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/raiden/raiden_mgr.jpg",
+                    "/images/characters/raiden/raiden_mgs4.jpg",
+                    "/images/characters/raiden/raiden_mgs2.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 4",
+                    "MGS 2",
+                    "MGR",
+                )
+            ),
+            Character(
                 name = "Revolver Ocelot",
                 realName = "Adamska",
                 alsoKnownNames = listOf(
@@ -356,7 +384,28 @@ data class Character(
                 gameTags = listOf(
                     "MGS 4",
                     "MGS 3",
-                    "MGO"
+                    "MPO"
+                )
+            ),
+            Character(
+                name = "Para Medic",
+                realName = "Clark (surname)",
+                alsoKnownNames = listOf(
+                    "Quack",
+                ),
+                nationality = "American",
+                born = "June 22, 1936",
+                age = "67 at death",
+                info = """
+                    Para-Medic, real name Dr. Clark, was a member of FOX in the 1960s, serving as a medical adviser to Naked Snake during Operation Snake Eater. Afterwards, she became one of the founding members of the Patriots, a key member in the Les Enfants Terribles project, and later, the chief of FOXHOUND's medical staff until her death.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/para_medic/para_medic_mgs3.jpg",
+                    "/images/characters/para_medic/para_medic_mpo.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 3",
+                    "MPO"
                 )
             ),
             Character(
@@ -425,6 +474,8 @@ data class Character(
                     Dr. Hal "Otacon" Emmerich was the chief engineer of Metal Gear REX. He became a close friend of Solid Snake after Snake rescued him during the Shadow Moses Incident in 2005. Later that year, he and Snake founded the anti-Metal Gear NGO Philanthropy. Following the Guns of the Patriots Incident, he became the adoptive father of Sunny. A devoted fan of anime, Hal's chosen nickname was derived from the Japanese animation convention Otakon.
                 """.trimIndent(),
                 imagePaths = listOf(
+                    "/images/characters/hal_emmerich/hal_emmerich_mgs4.jpg",
+                    "/images/characters/hal_emmerich/hal_emmerich_mgs2.jpg",
                     "/images/characters/hal_emmerich/hal_emmerich_mgs.jpg",
                 ),
                 gameTags = listOf(
@@ -459,6 +510,7 @@ data class Character(
                     Mei Ling was a Chinese-American data analyst who served on Solid Snake's radio support team during the Shadow Moses Incident. Afterwards, she joined Philanthropy, an anti-Metal Gear organization, and assisted Snake in secret by providing stolen military equipment. Years later, Mei Ling became Captain of the museum-turned-training vessel USS Missouri, commanding it in battle at the time of the Guns of the Patriots Incident.
                 """.trimIndent(),
                 imagePaths = listOf(
+                    "/images/characters/mei_ling/mei_ling_mgs4.jpg",
                     "/images/characters/mei_ling/mei_ling_mgs.jpg",
                 ),
                 gameTags = listOf(
@@ -550,12 +602,147 @@ data class Character(
                     During the Shadow Moses Incident, he was tortured to death by Revolver Ocelot of FOXHOUND, and later impersonated by Decoy Octopus.
                 """.trimIndent(),
                 imagePaths = listOf(
+                    "/images/characters/donald_anderson/donald_anderson_mgs3.jpg",
                     "/images/characters/donald_anderson/donald_anderson_mgs.jpg",
+                    "/images/characters/donald_anderson/donald_anderson_mpo.jpg",
                 ),
                 gameTags = listOf(
                     "MGS 3",
                     "MGO",
                     "MGS",
+                )
+            ),
+            Character(
+                name = "Eva",
+                alsoKnownNames = listOf(
+                    "Tatyana",
+                    "Tanya",
+                    "Matka Pluku",
+                    "Big Mama"
+                ),
+                nationality = "American",
+                born = "May 15, 1936",
+                age = "78 at death",
+                info = """
+                    EVA, also known as Tatyana and later known as Matka Pluku, and Big Mama, was a spy who fought alongside Naked Snake during Operation Snake Eater. While posing as a KGB agent, she actually worked as a spy for the Chinese People's Liberation Army, tasked with obtaining the Philosophers' Legacy. She later became the surrogate mother of Solid Snake and Liquid Snake.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/eva/eva_mgs4.jpg",
+                    "/images/characters/eva/eva_mgs3.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 4",
+                    "MGS 3"
+                )
+            ),
+            Character(
+                name = "The Boss",
+                alsoKnownNames = listOf(
+                    "The Joy",
+                    "Voyevoda",
+                    "The Mother of Special Forces",
+                    "Legendary Soldier",
+                    "Mercury Lady"
+                ),
+                nationality = "American",
+                born = "1922",
+                age = "42 at death",
+                info = """
+                    The Boss, also known as The Joy, The Mother of Special Forces, Mercury Lady and Voyevoda (Russian: Воевода, "Warlord"[2]), was a renowned American soldier, founder and leader of the Cobra Unit, the biological mother of Ocelot, and mentor and mother figure to Naked Snake. In June 1944, during World War II, she led the Cobra Unit to victory at the Battle of Normandy. Together with Naked Snake, she developed the technique of CQC.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/the_boss/the_boss_mgs3.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 3"
+                )
+            ),
+            Character(
+                name = "The Pain",
+                alsoKnownNames = listOf(
+                    "Hornet Soldier"
+                ),
+                born = "c. 1905 – c. 1914",
+                age = "50s at death",
+                info = """
+                    The Pain was the "Hornet Soldier" of the Cobra Unit.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/the_pain/the_pain_mgs3.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 3"
+                )
+            ),
+            Character(
+                name = "The Fear",
+                alsoKnownNames = listOf(
+                    "Spider Soldier"
+                ),
+                born = "c. 1905 – c. 1914",
+                age = "50s at death",
+                info = """
+                    The Fear was the "Spider Soldier" of the Cobra Unit. As with the other members of the unit, his codename came from the emotion he conveyed while on the battlefield: the terror that he instilled in others with his freakish appearance and movements.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/the_fear/the_fear_mgs3.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 3"
+                )
+            ),
+            Character(
+                name = "The End",
+                alsoKnownNames = listOf(
+                    "Ancient Sniper",
+                    "Father of Sniping"
+                ),
+                born = "1860s",
+                age = "100s at death",
+                info = """
+                    The End was the legendary "Ancient Sniper" of the Cobra Unit. He was over 100 years old when he was defeated by Naked Snake in 1964.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/the_end/the_end_mgs3.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 3"
+                )
+            ),
+            Character(
+                name = "The Sorrow",
+                alsoKnownNames = listOf(
+                    "Spirit Medium Soldier"
+                ),
+                nationality = "Soviet Russian",
+                born = "c. 1903 – c. 1912",
+                age = "50s at death",
+                info = """
+                    The Sorrow was the "Spirit Medium Soldier" of the Cobra Unit. Although he had no actual unique combat abilities like the other Cobras, The Sorrow was gifted with the powers of a medium. He was able to summon the dead and assume their combat abilities by bringing their spirits into himself. Communicating with dead soldiers also gave him several advantages during a battle, such as learning of enemy positions. Like the other Cobras, his codename reflected the emotion he brought to the battlefield.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/the_sorrow/the_sorrow_mgs3.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 3"
+                )
+            ),
+            Character(
+                name = "The Fury",
+                alsoKnownNames = listOf(
+                    "Flame Soldier"
+                ),
+                nationality = "Soviet Russian",
+                born = "c. 1905 – c. 1914",
+                age = "50s at death",
+                info = """
+                    The Fury was the "Flame Soldier" of the Cobra Unit.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/the_fury/the_fury_mgs3.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 3"
                 )
             ),
             Character(
@@ -621,6 +808,93 @@ data class Character(
                 gameTags = listOf(
                     "MGS 4",
                     "MGS",
+                )
+            ),
+            Character(
+                name = "Rosemary",
+                alsoKnownNames = listOf(
+                    "Rose"
+                ),
+                nationality = "American",
+                born = "Late 1980s",
+                info = """
+                    Rosemary is the wife of Raiden as well as a psychological counselor, and formerly a data analyst and spy.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/raiden/rosemary_mgs4.jpg",
+                    "/images/characters/raiden/rosemary_mgs2.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 4",
+                    "MGS 2"
+                )
+            ),
+            Character(
+                name = "Olga Gurlukovich",
+                alsoKnownNames = listOf(
+                    "Deepthroat",
+                    "Mr. X",
+                    "Cyborg Ninja"
+                ),
+                nationality = "Russian",
+                born = "September 23, 19XX",
+                info = """
+                    Olga Gurlukovich (Russian: Ольга Гурлукович) was the daughter of Sergei Gurlukovich, and a member of his private army, the Gurlukovich Mercenaries. She took command of her father's unit after his death. She was then forced into joining the Patriots, after they kidnapped her daughter Sunny. She worked as their agent, playing an important role in the Big Shell Incident of 2009.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/olga_gurlukovich/olga_gurlukovich_mgs2.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 2"
+                )
+            ),
+            Character(
+                name = "Fortune",
+                realName = "Helena Dolph Jackson",
+                alsoKnownNames = listOf(
+                    "Lady Luck",
+                    "Queen"
+                ),
+                info = """
+                    Fortune, real name Helena Dolph Jackson, was a leading member of the Navy SEALs anti-terrorist unit Dead Cell. Her codename referred to her seemingly supernatural ability to cause incoming bullets to pass around her and to render nearby explosives inert. She was also known as "Lady Luck" and earned the title of "Queen" among her Dead Cell comrades. She was often armed with a man-portable rail gun during combat. Fortune herself claimed that her luck on the battlefield was at the cost of tragedy in her personal life.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/fortune/fortune_mgs2.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 2"
+                )
+            ),
+            Character(
+                name = "Vamp",
+                nationality = "Romanian",
+                born = "Romania",
+                info = """
+                    Vamp was an ex-member of Dead Cell with vampire-like attributes, including a taste for blood, the ability to run across or stand on the surface of water or vertical walls, superhuman speed and agility, and the ability to shrug off and rapidly heal from the most extreme and fatal wounds. Besides his seemingly superhuman abilities, he was also an expert with knives and close quarters combat.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/vamp/vamp_mgs4.jpg",
+                    "/images/characters/vamp/vamp_mgs2.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 4",
+                    "MGS 2"
+                )
+            ),
+            Character(
+                name = "Fatman",
+                alsoKnownNames = listOf(
+                    "Emperor of Explosives"
+                ),
+                nationality = "American",
+                info = """
+                    Fatman was a member of Dead Cell and a highly trained expert in bomb making. Along with Vamp and Fortune, he was one of the three remaining members of Dead Cell who participated in the armed takeover of the Big Shell offshore cleanup facility in 2009. Fatman was named after the atomic bomb used to destroy Nagasaki in World War II.
+                """.trimIndent(),
+                imagePaths = listOf(
+                    "/images/characters/fatman/fatman_mgs2.jpg",
+                ),
+                gameTags = listOf(
+                    "MGS 2"
                 )
             ),
         )
