@@ -11,9 +11,9 @@ fun Route.searchGames() {
     val gamesRepository: GamesRepository by inject()
 
     get("/mgs/games/search") {
-        val name = call.request.queryParameters["name"]
+        val query = call.request.queryParameters["query"]
 
-        val apiResponse = gamesRepository.searchGames(name)
+        val apiResponse = gamesRepository.searchGames(query)
 
         call.respond(
             message = apiResponse,
