@@ -11,7 +11,7 @@ data class Character(
     val info: String? = null,
     val imagePaths: List<String>,
     val shortClipPath: String? = null,
-    val gameTags: List<String>
+    val gameTagsToImageIndexMap: Map<String, Int>
 ) {
     companion object {
         val characters = listOf(
@@ -44,13 +44,13 @@ data class Character(
                     "/images/characters/solid_snake/solid_snake_mgs2.jpg",
                     "/images/characters/solid_snake/solid_snake_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 4",
-                    "MGS 2",
-                    "MGS TTS",
-                    "MGS",
-                    "MG 2",
-                    "MG"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 4" to 0,
+                    "MGS 2" to 1,
+                    "MGS" to 2,
+                    "MGS TTS" to 0,
+                    "MG 2" to 0,
+                    "MG" to 0
                 )
             ),
             Character(
@@ -79,15 +79,15 @@ data class Character(
                     "/images/characters/big_boss/big_boss_mgs5.jpg",
                 ),
                 shortClipPath = "/clips/characters/big_boss/big_boss_mgsgz.mp4",
-                gameTags = listOf(
-                    "MGS 5 TPP",
-                    "MGS 5 GZ",
-                    "MGS PW",
-                    "MGS 4",
-                    "MG0",
-                    "MGS 3",
-                    "MG 2",
-                    "MG"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 5 GZ" to 0,
+                    "MGS 5 TPP" to 1,
+                    "MGS PW" to 0,
+                    "MGS 4" to 0,
+                    "MG0" to 0,
+                    "MGS 3" to 0,
+                    "MG 2" to 0,
+                    "MG" to 0
                 )
             ),
             Character(
@@ -109,9 +109,9 @@ data class Character(
                     "/images/characters/venom_snake/venom_snake.mgs5tpp.jpg",
                     "/images/characters/venom_snake/venom_snake.mgs5tpp2.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 5 TPP",
-                    "MG",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 5 TPP" to 0,
+                    "MG" to 0,
                 )
             ),
             Character(
@@ -132,12 +132,12 @@ data class Character(
                     "/images/characters/kazuhira_miller/kazuhira_miller_mgs5.jpg",
                     "/images/characters/kazuhira_miller/kazuhira_miller_mgs.jpg"
                 ),
-                gameTags = listOf(
-                    "MGS 5 TPP",
-                    "MGS 5 GZ",
-                    "MGS PW",
-                    "MGS",
-                    "MG 2",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 5 TPP" to 0,
+                    "MGS" to 1,
+                    "MGS 5 GZ" to 0,
+                    "MGS PW" to 0,
+                    "MG 2" to 0,
                 )
             ),
             Character(
@@ -162,10 +162,10 @@ data class Character(
                     "/images/characters/raiden/raiden_mgs4.jpg",
                     "/images/characters/raiden/raiden_mgs2.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 4",
-                    "MGS 2",
-                    "MGR",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGR" to 0,
+                    "MGS 4" to 1,
+                    "MGS 2" to 2,
                 )
             ),
             Character(
@@ -189,13 +189,13 @@ data class Character(
                     "/images/characters/revolver_ocelot/revolver_ocelot_mgs4.jpg",
                     "/images/characters/revolver_ocelot/revolver_ocelot_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 5 TPP",
-                    "MGS 4",
-                    "MG0",
-                    "MGS 3",
-                    "MGS 2",
-                    "MGS",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 5 TPP" to 0,
+                    "MGS 4" to 1,
+                    "MGS" to 2,
+                    "MG0" to 0,
+                    "MGS 3" to 0,
+                    "MGS 2" to 0,
                 )
             ),
             Character(
@@ -210,9 +210,9 @@ data class Character(
                     "/images/characters/huey_emmerich/huey_emmerich_mgs5.jpg",
                     "/images/characters/huey_emmerich/huey_emmerich_mgspw.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 5 TPP",
-                    "MGS PW",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 5 TPP" to 0,
+                    "MGS PW" to 1,
                 )
             ),
             Character(
@@ -234,9 +234,9 @@ data class Character(
                     "/images/characters/liquid_snake/liquid_snake_mgs5.jpg",
                     "/images/characters/liquid_snake/liquid_snake_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 5 TPP",
-                    "MGS"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 5 TPP" to 0,
+                    "MGS" to 1
                 )
             ),
 
@@ -258,12 +258,11 @@ data class Character(
                 """.trimIndent(),
                 imagePaths = listOf(
                     "/images/characters/yevgeny_borisovitch_volgin/yevgeny_borisovitch_volgin_mgs5.jpg",
-                    "/images/characters/yevgeny_borisovitch_volgin/yevgeny_borisovitch_volgin_mgs5_2.jpg",
                     "/images/characters/yevgeny_borisovitch_volgin/yevgeny_borisovitch_volgin_mgs3.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 5 TPP",
-                    "MGS 3"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 5 TPP" to 0,
+                    "MGS 3" to 1
                 )
             ),
             Character(
@@ -284,10 +283,10 @@ data class Character(
                     "/images/characters/psycho_mantis/psycho_mantis_mgs4.jpg",
                     "/images/characters/psycho_mantis/psycho_mantis_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS",
-                    "MGS 4",
-                    "MGS 5 TPP"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 5 TPP" to 0,
+                    "MGS 4" to 1,
+                    "MGS" to 2,
                 )
             ),
             Character(
@@ -303,8 +302,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/quiet/quiet_mgs5.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 5 TPP"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 5 TPP" to 0
                 )
             ),
             Character(
@@ -320,8 +319,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/code_talker/code_talker_mgs5.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 5 TPP"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 5 TPP" to 0
                 )
             ),
             Character(
@@ -338,9 +337,9 @@ data class Character(
                     "/images/characters/skull_face/skull_face_mgs5tpp.jpg",
                     "/images/characters/skull_face/skull_face_mgs5gz.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 5 TPP",
-                    "MGS 5 GZ"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 5 TPP" to 0,
+                    "MGS 5 GZ" to 1
                 )
             ),
             Character(
@@ -356,10 +355,10 @@ data class Character(
                     "/images/characters/paz_ortega_andrade/paz_ortega_andrade_mgs5gz.jpg",
                     "/images/characters/paz_ortega_andrade/paz_ortega_andrade_mgspw.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 5 TPP",
-                    "MGS 5 GZ",
-                    "MGS PW"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 5 TPP" to 0,
+                    "MGS 5 GZ" to 1,
+                    "MGS PW" to 2
                 )
             ),
             Character(
@@ -381,10 +380,10 @@ data class Character(
                     "/images/characters/zero/zero_mgs3.jpg",
                     "/images/characters/zero/zero_mpo.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 4",
-                    "MGS 3",
-                    "MPO"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 4" to 0,
+                    "MGS 3" to 1,
+                    "MPO" to 2
                 )
             ),
             Character(
@@ -403,9 +402,9 @@ data class Character(
                     "/images/characters/para_medic/para_medic_mgs3.jpg",
                     "/images/characters/para_medic/para_medic_mpo.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 3",
-                    "MPO"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 3" to 0,
+                    "MPO" to 1
                 )
             ),
             Character(
@@ -424,8 +423,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/solidus_snake/solidus_snake_mgs2.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 2"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 2" to 0
                 )
             ),
             Character(
@@ -440,9 +439,9 @@ data class Character(
                     "/images/characters/meryl_silverburgh/meryl_silverburgh_mgs4.jpg",
                     "/images/characters/meryl_silverburgh/meryl_silverburgh_mgs.jpg"
                 ),
-                gameTags = listOf(
-                    "MGS 4",
-                    "MGS",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 4" to 0,
+                    "MGS" to 1,
                 )
             ),
             Character(
@@ -458,9 +457,9 @@ data class Character(
                     "/images/characters/naomi_hunter/naomi_hunter_mgs4.jpg",
                     "/images/characters/naomi_hunter/naomi_hunter_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 4",
-                    "MGS",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 4" to 0,
+                    "MGS" to 1,
                 )
             ),
             Character(
@@ -478,10 +477,10 @@ data class Character(
                     "/images/characters/hal_emmerich/hal_emmerich_mgs2.jpg",
                     "/images/characters/hal_emmerich/hal_emmerich_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 4",
-                    "MGS 2",
-                    "MGS",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 4" to 0,
+                    "MGS 2" to 1,
+                    "MGS" to 2,
                 )
             ),
             Character(
@@ -495,11 +494,11 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/roy_campbell/roy_campbell_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 4",
-                    "MPO",
-                    "MGS",
-                    "MG 2"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS" to 0,
+                    "MGS 4" to 0,
+                    "MG 2" to 0,
+                    "MPO" to 0,
                 )
             ),
             Character(
@@ -513,9 +512,9 @@ data class Character(
                     "/images/characters/mei_ling/mei_ling_mgs4.jpg",
                     "/images/characters/mei_ling/mei_ling_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 4",
-                    "MGS",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 4" to 0,
+                    "MGS" to 1,
                 )
             ),
             Character(
@@ -539,11 +538,11 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/gray_fox/gray_fox_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS",
-                    "MG 2",
-                    "MG",
-                    "MPO",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS" to 0,
+                    "MG 2" to 0,
+                    "MG" to 0,
+                    "MPO" to 0,
                 )
             ),
             Character(
@@ -557,8 +556,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/nastasha_romanenko/nastasha_romanenko_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS" to 0
                 )
             ),
             Character(
@@ -566,8 +565,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/vulcan_raven/vulcan_raven_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS" to 0
                 )
             ),
             Character(
@@ -581,8 +580,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/sniper_wolf/sniper_wolf_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS" to 0,
                 )
             ),
             Character(
@@ -606,10 +605,10 @@ data class Character(
                     "/images/characters/donald_anderson/donald_anderson_mgs.jpg",
                     "/images/characters/donald_anderson/donald_anderson_mpo.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 3",
-                    "MGO",
-                    "MGS",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 3" to 0,
+                    "MGS" to 1,
+                    "MGO" to 2,
                 )
             ),
             Character(
@@ -630,9 +629,9 @@ data class Character(
                     "/images/characters/eva/eva_mgs4.jpg",
                     "/images/characters/eva/eva_mgs3.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 4",
-                    "MGS 3"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 4" to 0,
+                    "MGS 3" to 1
                 )
             ),
             Character(
@@ -653,8 +652,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/the_boss/the_boss_mgs3.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 3"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 3" to 0
                 )
             ),
             Character(
@@ -670,8 +669,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/the_pain/the_pain_mgs3.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 3"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 3" to 0
                 )
             ),
             Character(
@@ -687,8 +686,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/the_fear/the_fear_mgs3.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 3"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 3" to 0
                 )
             ),
             Character(
@@ -705,8 +704,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/the_end/the_end_mgs3.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 3"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 3" to 0
                 )
             ),
             Character(
@@ -723,8 +722,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/the_sorrow/the_sorrow_mgs3.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 3"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 3" to 0
                 )
             ),
             Character(
@@ -741,8 +740,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/the_fury/the_fury_mgs3.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 3"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 3" to 0
                 )
             ),
             Character(
@@ -757,8 +756,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/decoy_octopus/decoy_octopus_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS" to 0,
                 )
             ),
             Character(
@@ -772,8 +771,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/kenneth_baker/kenneth_baker_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS" to 0,
                 )
             ),
             Character(
@@ -786,8 +785,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/jim_houseman/jim_houseman_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS" to 0,
                 )
             ),
             Character(
@@ -805,9 +804,9 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/johnny_sasaki/johnny_sasaki_mgs.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 4",
-                    "MGS",
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS" to 0,
+                    "MGS 4" to 0,
                 )
             ),
             Character(
@@ -824,9 +823,9 @@ data class Character(
                     "/images/characters/raiden/rosemary_mgs4.jpg",
                     "/images/characters/raiden/rosemary_mgs2.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 4",
-                    "MGS 2"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 4" to 0,
+                    "MGS 2" to 1
                 )
             ),
             Character(
@@ -844,8 +843,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/olga_gurlukovich/olga_gurlukovich_mgs2.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 2"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 2" to 0
                 )
             ),
             Character(
@@ -861,8 +860,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/fortune/fortune_mgs2.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 2"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 2" to 0
                 )
             ),
             Character(
@@ -876,9 +875,9 @@ data class Character(
                     "/images/characters/vamp/vamp_mgs4.jpg",
                     "/images/characters/vamp/vamp_mgs2.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 4",
-                    "MGS 2"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 4" to 0,
+                    "MGS 2" to 1
                 )
             ),
             Character(
@@ -893,8 +892,8 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/fatman/fatman_mgs2.jpg",
                 ),
-                gameTags = listOf(
-                    "MGS 2"
+                gameTagsToImageIndexMap = mapOf(
+                    "MGS 2" to 0
                 )
             ),
         )

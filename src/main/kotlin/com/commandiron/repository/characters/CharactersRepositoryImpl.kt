@@ -109,7 +109,7 @@ class CharactersRepositoryImpl: CharactersRepository {
                         return@forEach
                     }
                 }
-                if(character.gameTags.any { it.lowercase().contains(query.lowercase()) }) {
+                if(character.gameTagsToImageIndexMap.any { it.lowercase().contains(query.lowercase()) }) {
                     founded.add(character)
                     return@forEach
                 }
