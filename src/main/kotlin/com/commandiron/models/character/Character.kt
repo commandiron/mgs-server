@@ -77,14 +77,19 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/big_boss/big_boss_mgsgz.png",
                     "/images/characters/big_boss/big_boss_mgs5.jpg",
+                    "/images/characters/big_boss/big_boss_mgspw.jpg",
+                    "/images/characters/big_boss/big_boss_mgs4.jpg",
+                    "/images/characters/big_boss/big_boss_mgs3.jpg",
+                    "/images/characters/big_boss/big_boss_mpo.jpg",
+
                 ),
                 gameTags = listOf(
                     "MGS 5 GZ",
                     "MGS 5 TPP",
                     "MGS PW",
                     "MGS 4",
-                    "MG0",
                     "MGS 3",
+                    "MP0",
                     "MG 2",
                     "MG",
                 ),
@@ -187,15 +192,17 @@ data class Character(
                 imagePaths = listOf(
                     "/images/characters/revolver_ocelot/revolver_ocelot_mgs5.jpg",
                     "/images/characters/revolver_ocelot/revolver_ocelot_mgs4.jpg",
+                    "/images/characters/revolver_ocelot/revolver_ocelot_mgs3.jpg",
+                    "/images/characters/revolver_ocelot/revolver_ocelot_mgs2.jpg",
                     "/images/characters/revolver_ocelot/revolver_ocelot_mgs.jpg",
                 ),
                 gameTags = listOf(
                     "MGS 5 TPP",
                     "MGS 4",
-                    "MGS",
-                    "MG0",
                     "MGS 3",
                     "MGS 2",
+                    "MGS",
+                    "MG0",
                 )
             ),
             Character(
