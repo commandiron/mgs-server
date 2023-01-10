@@ -8,4 +8,11 @@
 <p align="center">  
 Metal Gear Solid Rest Api written in Kotlin using Ktor. For app <a href="https://github.com/commandiron/mgs_app">click.</a>
 </p>
-</br>
+
+## Usage
+|End Points ```GET```|Definition|
+|--------------------|----------|
+| ```/mgs/characters```|Get all characters|
+|```WheelDatePicker { snappedDate -> }```|
+|```WheelTimePicker { snappedTime -> }```|
+|```WheelTimePicker(timeFormat = TimeFormat.AM_PM) { snappedTime -> }```|
