@@ -6,6 +6,6 @@
 </p>
 
 <p align="center">  
-Metal Gear Solid fan app written in Dart using Flutter Framework with self-written <a href="https://github.com/commandiron/mgs-server/">Rest Api</a>
+Metal Gear Solid Rest Api written in Kotlin using Ktor.
 </p>
 </br>
