@@ -6,6 +6,6 @@
 </p>
 
 <p align="center">  
-Metal Gear Solid Rest Api written in Kotlin using Ktor.
+Metal Gear Solid Rest Api written in Kotlin using Ktor. For app <a href="https://github.com/commandiron/mgs_app">click</a>
 </p>
 </br>
